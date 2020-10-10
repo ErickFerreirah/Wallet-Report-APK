@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".TelaCadastro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/oie_transparent" />
+
+    <EditText
+        android:id="@+id/Lblusucad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_usuario"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome de usuário"
+        android:textColor="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/Lblemailcad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/Lblemailcad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:textColor="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/Lblsenhacad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lblusucad" />
+
+    <EditText
+        android:id="@+id/Lblsenhacad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Senha"
+        android:drawableLeft="@drawable/ic_action_senha"
+        android:textColor="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/Lblconfcad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lblemailcad" />
+
+    <EditText
+        android:id="@+id/Lblconfcad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirme a senha"
+        android:drawableLeft="@drawable/ic_action_senha"
+        android:textColor="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/btnregistre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lblsenhacad" />
+
+    <Button
+        android:id="@+id/btnregistre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regristre-se"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lblconfcad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

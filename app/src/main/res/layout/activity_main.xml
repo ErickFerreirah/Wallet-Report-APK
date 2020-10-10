@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_usuario"
+        android:ems="10"
+        android:hint="Usuário"
+        android:inputType="textPersonName"
+        android:textColor="#B8B7B7"
+        android:textColorHighlight="#2196F3"
+        android:textColorHint="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/lblsenha1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="238dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toTopOf="@+id/lblUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oie_transparent" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="Telahome"
+        android:text="LOGIN"
+        android:textColor="#000000"
+        android:textColorHighlight="#572E2E"
+        android:textColorHint="#512020"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnregistrese"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:onClick="Telacad"
+        android:text="Registre-se"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblsenha1" />
+
+    <EditText
+        android:id="@+id/lblsenha1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_senha"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textColor="#B8B7B7"
+        android:textColorHint="#B8B7B7"
+        app:layout_constraintBottom_toTopOf="@+id/btnregistrese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblUsuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
