@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quemsomos">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:background="#3E3D3D"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_baseline_menu_24" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="577dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:tint="#ADFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5"
+        app:srcCompat="@drawable/engre" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="352dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="161dp"
+        android:text="A Wallet Report é uma plataforma de consulta a bitcoins entre outras criptomoedas. Buscamos trazer inovações para o mercado financeiro, facilitando a forma de como as pessoas compram e vendem criptomoedas, utilizando a tecnologia blockchain."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="352dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="330dp"
+        android:text="Hoje a Wallet Report conta com uma variedade de mais de 6 criptomoedas, sendo as principais: Bitcoin, Bitcoin cash, Ethereum, Litecoin, Ripple e outras."
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintTop_toTopOf="@+id/imageView29" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="248dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="48dp"
+        android:text="Sobre nós"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintEnd_toStartOf="@+id/imageView29"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toEndOf="@+id/imageView29"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

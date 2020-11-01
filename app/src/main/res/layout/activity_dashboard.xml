@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo"
+    android:onClick="BCH"
     tools:context=".Dashboard">
 
     <LinearLayout
@@ -108,6 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="94dp"
                 android:background="#000000"
+                android:onClick="BCH"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -181,6 +183,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
+                android:onClick="ETH"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -253,6 +256,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
+                android:onClick="ETC"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -261,12 +265,12 @@
 
                     <TextView
                         android:id="@+id/textocrip"
-                        android:layout_width="55dp"
-                        android:layout_height="28dp"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginLeft="12dp"
+                        android:layout_width="64dp"
+                        android:layout_height="26dp"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginLeft="14dp"
                         android:layout_marginTop="16dp"
-                        android:text="ETC"
+                        android:text="OMG"
                         android:textColor="#FFFFFF"
                         android:textSize="24sp"
                         app:fontFamily="@font/roboto_slab_light"
@@ -288,9 +292,9 @@
                         android:id="@+id/textocrip3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="12dp"
-                        android:layout_marginLeft="12dp"
-                        android:text="Ethereum Classic"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="OmiseGO"
                         android:textColor="#FFFFFF"
                         app:layout_constraintStart_toEndOf="@+id/imageView3"
                         app:layout_constraintTop_toBottomOf="@+id/textocrip" />
@@ -309,14 +313,14 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="62dp"
+                        android:layout_height="62dp"
                         android:layout_marginStart="7dp"
                         android:layout_marginLeft="7dp"
                         android:layout_marginTop="16dp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/etc" />
+                        app:srcCompat="@drawable/omg" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
@@ -324,6 +328,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="XRP"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -395,6 +400,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="LTC"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -468,6 +474,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="YFI"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -481,11 +488,11 @@
                         android:layout_marginStart="14dp"
                         android:layout_marginLeft="14dp"
                         android:layout_marginTop="15dp"
-                        android:text="YFI"
+                        android:text="ZEC"
                         android:textColor="#FFFFFF"
                         android:textSize="24sp"
                         app:fontFamily="@font/roboto_slab_light"
-                        app:layout_constraintStart_toEndOf="@+id/img10"
+                        app:layout_constraintStart_toEndOf="@+id/imageView31"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <Button
@@ -511,8 +518,19 @@
                         app:layout_constraintEnd_toStartOf="@+id/button221"
                         app:layout_constraintTop_toTopOf="parent" />
 
+                    <TextView
+                        android:id="@+id/id2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginLeft="14dp"
+                        android:text="Zcash"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toEndOf="@+id/imageView31"
+                        app:layout_constraintTop_toBottomOf="@+id/text5" />
+
                     <ImageView
-                        android:id="@+id/img10"
+                        android:id="@+id/imageView31"
                         android:layout_width="62dp"
                         android:layout_height="62dp"
                         android:layout_marginStart="7dp"
@@ -520,18 +538,7 @@
                         android:layout_marginTop="16dp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/yfi" />
-
-                    <TextView
-                        android:id="@+id/id2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="14dp"
-                        android:layout_marginLeft="14dp"
-                        android:text="Yearn.finance"
-                        android:textColor="#FFFFFF"
-                        app:layout_constraintStart_toEndOf="@+id/img10"
-                        app:layout_constraintTop_toBottomOf="@+id/text5" />
+                        app:srcCompat="@drawable/zec" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -540,6 +547,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="ZRX"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -615,6 +623,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="DRC"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -650,7 +659,7 @@
                         android:layout_marginStart="12dp"
                         android:layout_marginLeft="12dp"
                         android:layout_marginTop="16dp"
-                        android:text="DRC"
+                        android:text="DCR"
                         android:textColor="#FFFFFF"
                         android:textSize="24sp"
                         app:fontFamily="@font/roboto_slab_light"
@@ -688,6 +697,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:onClick="DASH"
                 app:cardBackgroundColor="#00FFFFFF">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -760,7 +770,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 
 </ScrollView>

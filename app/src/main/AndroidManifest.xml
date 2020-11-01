@@ -7,32 +7,64 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:screenOrientation="portrait"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".BTC"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity android:name=".dm"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".Dashboard"
-            android:screenOrientation="portrait"/>
-
+        <activity android:name=".oquee"
+        android:screenOrientation="portrait" />
+        <activity android:name=".perfil"
+            android:screenOrientation="portrait" />
+        <activity android:name=".contato"
+            android:screenOrientation="portrait" />
+        <activity android:name=".quemsomos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DASH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DRC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZRX"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YFI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LTC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".XRP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ETC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ETH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BCH"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BTC"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Navegation"
             android:label="@string/title_activity_navegation"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <activity android:name=".TelaCadastro"
-            android:screenOrientation="portrait"/>
-
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".TelaCadastro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
