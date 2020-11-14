@@ -32,23 +32,27 @@
                         android:id="@+id/textView15"
                         android:layout_width="292dp"
                         android:layout_height="37dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="8dp"
                         android:text="OMISEGO"
                         android:textColor="#FFFFFF"
                         android:textSize="30sp"
                         app:fontFamily="sans-serif-medium"
-                        app:layout_constraintTop_toTopOf="parent"
-                        tools:layout_editor_absoluteX="78dp" />
+                        app:layout_constraintStart_toEndOf="@+id/imageView21"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/textView27"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
                         android:text="OMG"
                         android:textColor="#FFFFFF"
                         android:textSize="18sp"
-                        app:layout_constraintTop_toBottomOf="@+id/textView15"
-                        tools:layout_editor_absoluteX="78dp" />
+                        app:layout_constraintStart_toEndOf="@+id/imageView21"
+                        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
                     <ImageView
                         android:id="@+id/imageView21"
